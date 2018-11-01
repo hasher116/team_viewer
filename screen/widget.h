@@ -31,6 +31,7 @@ private:
     QPushButton *buttonCreate;
     QPushButton *buttonShow = NULL;
     QPixmapView *view=NULL;
+      QPixmapView *view2=NULL;
     void serialize(QPixmap pixmap);
 
 private slots:
